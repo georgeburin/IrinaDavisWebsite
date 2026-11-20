@@ -4,7 +4,7 @@ export const site = {
   title: "Irina Davis · Original Paintings",
   description:
     "Original oil, acrylic and watercolor paintings by Irina Davis. Every painting is one of a kind and ships from the studio.",
-  email: "hello@example.com", // PLACEHOLDER
+  email: "irinads14@yahoo.com",
   instagram: "https://www.instagram.com/", // PLACEHOLDER
   location: "[City, State]", // PLACEHOLDER
   currency: "USD",
