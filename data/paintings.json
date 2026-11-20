@@ -1,0 +1,229 @@
+[
+  {
+    "id": "8c0c7a06-eb49-49da-874e-af484e0f2a0c",
+    "slug": "morning-light",
+    "title": "Morning Light",
+    "description": "The first warm light of the day spreading over the hills, painted in thin layers of cream, peach and soft green.\n\nThe sky was built up slowly with many small horizontal strokes, so it seems to shimmer as you walk past it. The painting continues around the edges of the canvas, so it can hang without a frame.",
+    "priceCents": 120000,
+    "status": "available",
+    "completedOn": "2026-04-12",
+    "medium": "Oil on canvas",
+    "widthIn": 24,
+    "heightIn": 18,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/morning-light.jpg",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/paintings/morning-light-detail.jpg",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/paintings/morning-light-room.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "createdAt": "2026-11-01T12:00:00.000Z",
+    "updatedAt": "2026-11-01T12:00:00.000Z"
+  },
+  {
+    "id": "18659b59-4db4-46ee-8875-2196422c2895",
+    "slug": "quiet-harbor",
+    "title": "Quiet Harbor",
+    "description": "A calm afternoon on the water, with three small sailboats resting near the horizon.\n\nThe sea is painted with loose, broken strokes of blue and grey that catch the light differently through the day.",
+    "priceCents": 165000,
+    "status": "available",
+    "completedOn": "2026-02-03",
+    "medium": "Oil on linen",
+    "widthIn": 30,
+    "heightIn": 20,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/quiet-harbor.jpg",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/paintings/quiet-harbor-detail.jpg",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "createdAt": "2026-11-01T12:01:00.000Z",
+    "updatedAt": "2026-11-01T12:01:00.000Z"
+  },
+  {
+    "id": "d9852748-fe95-40e5-82c5-f7b1c157d1e9",
+    "slug": "still-life-with-pears",
+    "title": "Still Life with Pears",
+    "description": "Three pears on an old wooden table, lit from the left against a dark, warm background.\n\nA small, quiet painting in the tradition of classic kitchen still lifes. Sold framed in a dark wood frame.",
+    "priceCents": 85000,
+    "status": "sold",
+    "completedOn": "2025-11-20",
+    "medium": "Oil on panel",
+    "widthIn": 16,
+    "heightIn": 20,
+    "depthIn": null,
+    "framed": true,
+    "images": [
+      {
+        "src": "/paintings/still-life-with-pears.jpg",
+        "width": 1280,
+        "height": 1600
+      },
+      {
+        "src": "/paintings/still-life-with-pears-room.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "createdAt": "2026-11-01T12:02:00.000Z",
+    "updatedAt": "2026-11-01T12:02:00.000Z"
+  },
+  {
+    "id": "3cdb981c-4b8b-40a2-8ff3-f723dcf80122",
+    "slug": "field-in-june",
+    "title": "Field in June",
+    "description": "Poppies scattered through tall summer grass under a light, breezy sky.\n\nPainted quickly outdoors and finished in the studio, with thicker paint in the foreground flowers.",
+    "priceCents": 98000,
+    "status": "available",
+    "completedOn": "2025-06-28",
+    "medium": "Acrylic on canvas",
+    "widthIn": 20,
+    "heightIn": 20,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/field-in-june.jpg",
+        "width": 1400,
+        "height": 1400
+      }
+    ],
+    "createdAt": "2026-11-01T12:03:00.000Z",
+    "updatedAt": "2026-11-01T12:03:00.000Z"
+  },
+  {
+    "id": "3c7aab89-3ac9-4d06-aa96-9ca7c38e477f",
+    "slug": "blue-hour",
+    "title": "Blue Hour",
+    "description": "An abstract study of the deep blue light just after sunset, with a single warm band between two fields of color.\n\nLarge enough to anchor a living room wall. The soft edges come from many thin, translucent layers.",
+    "priceCents": 240000,
+    "status": "reserved",
+    "completedOn": "2026-07-15",
+    "medium": "Acrylic on canvas",
+    "widthIn": 30,
+    "heightIn": 40,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/blue-hour.jpg",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "createdAt": "2026-11-01T12:04:00.000Z",
+    "updatedAt": "2026-11-01T12:04:00.000Z"
+  },
+  {
+    "id": "e0cdaf93-da39-47ff-be2a-acf5ac6a114f",
+    "slug": "winter-birches",
+    "title": "Winter Birches",
+    "description": "White birch trunks in fresh snow on a grey winter morning.\n\nA small vertical painting that works well in a hallway or next to a window.",
+    "priceCents": 64000,
+    "status": "available",
+    "completedOn": "2026-01-22",
+    "medium": "Oil on canvas",
+    "widthIn": 12,
+    "heightIn": 18,
+    "depthIn": 0.75,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/winter-birches.jpg",
+        "width": 1067,
+        "height": 1600
+      }
+    ],
+    "createdAt": "2026-11-01T12:05:00.000Z",
+    "updatedAt": "2026-11-01T12:05:00.000Z"
+  },
+  {
+    "id": "f74757f3-5456-45b1-b0fc-3d289baeca3f",
+    "slug": "after-the-rain",
+    "title": "After the Rain",
+    "description": "City lights reflected in a wet street at dusk, with a lone figure under an umbrella.\n\nThe reflections were painted wet-into-wet, so the colors blur into each other the way they do on real pavement.",
+    "priceCents": 110000,
+    "status": "sold",
+    "completedOn": "2025-09-30",
+    "medium": "Oil on canvas",
+    "widthIn": 16,
+    "heightIn": 20,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/after-the-rain.jpg",
+        "width": 1280,
+        "height": 1600
+      }
+    ],
+    "createdAt": "2026-11-01T12:06:00.000Z",
+    "updatedAt": "2026-11-01T12:06:00.000Z"
+  },
+  {
+    "id": "3bd21d25-0e3c-42d3-a052-5f93c6a8588c",
+    "slug": "evening-tide",
+    "title": "Evening Tide",
+    "description": "The sun setting over a calm sea, leaving a long golden path across the water.\n\nWatercolor on heavy cotton paper. Comes framed behind glass with a white mat.",
+    "priceCents": 42000,
+    "status": "available",
+    "completedOn": "2026-08-30",
+    "medium": "Watercolor on paper",
+    "widthIn": 15,
+    "heightIn": 10,
+    "depthIn": null,
+    "framed": true,
+    "images": [
+      {
+        "src": "/paintings/evening-tide.jpg",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "createdAt": "2026-11-01T12:07:00.000Z",
+    "updatedAt": "2026-11-01T12:07:00.000Z"
+  },
+  {
+    "id": "f7437674-1149-4c5d-bdb1-dfd02d0e5ebb",
+    "slug": "garden-roses",
+    "title": "Garden Roses",
+    "description": "A loose bouquet of garden roses in a blue ceramic vase.\n\nPainted from life over two mornings, while the flowers were still fresh.",
+    "priceCents": 105000,
+    "status": "available",
+    "completedOn": "2026-05-18",
+    "medium": "Oil on canvas",
+    "widthIn": 20,
+    "heightIn": 20,
+    "depthIn": 1.5,
+    "framed": false,
+    "images": [
+      {
+        "src": "/paintings/garden-roses.jpg",
+        "width": 1400,
+        "height": 1400
+      }
+    ],
+    "createdAt": "2026-11-01T12:08:00.000Z",
+    "updatedAt": "2026-11-01T12:08:00.000Z"
+  }
+]
