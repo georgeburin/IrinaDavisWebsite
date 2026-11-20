@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #faf8f4;
+  --color-panel: #f1ede6;
+  --color-ink: #1d1b18;
+  --color-muted: #6b665e;
+  --color-line: #e4ded3;
+  --color-available: #3d7a4e;
+  --color-reserved: #9a5f0c;
+  --color-sold: #9b3b2e;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, "Times New Roman", serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Stop the page behind the fullscreen viewer from scrolling. */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+::selection {
+  background: #e9dcc7;
+}
+
+@layer components {
+  /* Long-form text (About, policies). */
+  .prose-page {
+    max-width: 42rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-ink);
+  }
+  .prose-page > * + * {
+    margin-top: 1.1em;
+  }
+  .prose-page h2 {
+    margin-top: 1.8em;
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .prose-page h2 + * {
+    margin-top: 0.6em;
+  }
+  .prose-page ul {
+    list-style: disc;
+    padding-left: 1.25em;
+  }
+  .prose-page li + li {
+    margin-top: 0.35em;
+  }
+  .prose-page a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--color-line);
+  }
+  .prose-page a:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 9999px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition:
+      background-color 150ms,
+      color 150ms,
+      border-color 150ms;
+  }
+  .btn-primary {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn-primary:hover {
+    background: #3a362f;
+  }
+  .btn-outline {
+    border: 1px solid var(--color-ink);
+    color: var(--color-ink);
+  }
+  .btn-outline:hover {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn:disabled,
+  .btn[aria-disabled="true"] {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+  .btn-primary:disabled:hover {
+    background: var(--color-ink);
+  }
+  .btn-outline:disabled:hover {
+    background: transparent;
+    color: var(--color-ink);
+  }
+
+  .link {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: color-mix(in oklab, currentColor 30%, transparent);
+  }
+  .link:hover {
+    text-decoration-color: currentColor;
+  }
+}
